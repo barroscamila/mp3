@@ -1,6 +1,8 @@
 <a href="?page=albums">Voltar para Álbuns</a>
 <h1>Música do Àlbum <?=$_GET['album']?></h1>
 
+<a href="?page=newMusic&album=<?=$_GET['album']?>" class="btn btn_sucess"> Cadastrar Nova Música</a>
+
 <hr>
 
 <?php
